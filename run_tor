@@ -1,6 +1,3 @@
-' Set Shell = CreateObject("WScript.Shell")
-' Shell.Run "tor.exe", 0, False
-
 Set Shell = CreateObject("WScript.Shell")
 
 localAppData = Shell.ExpandEnvironmentStrings("%LOCALAPPDATA%")
